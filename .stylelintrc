@@ -1,0 +1,25 @@
+{
+  "extends": ["stylelint-config-recommended-scss"],
+  "rules": {
+        "selector-class-pattern": [
+          "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+          {
+            "resolveNestedSelectors": true
+          }
+        ],
+        "block-no-empty": true,
+        "comment-no-empty": true,
+        "no-empty-source": true,
+        "unit-allowed-list": ["em", "rem", "%", "px", "vh", "vw", "s"],
+        "length-zero-no-unit": true,
+        "max-empty-lines": [
+          2,
+          {
+            "ignore": [
+              "comments"
+            ]
+          }
+        ],
+        "font-family-no-missing-generic-family-keyword": true
+  }
+}
