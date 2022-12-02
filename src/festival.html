@@ -1,28 +1,62 @@
-<!DOCTYPE html>
-
-<html lang="es" >
+<!doctype html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
-    <title>Medieval Rock Band | Conciertos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stoner Rock | El Festival</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="band.html">La banda</a>
-      <a href="festival.html">Festival de música</a>
-      <a href="tickets.html">Entradas</a>
-    </nav>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <!-- <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />-->
-      </picture>
-      <h1 class="uoc-title">Festival de música</h1>
-      <p>Rock  the night</p>
+    <include src="./views/navbar_festival.html"></include>
+    <div class="container-fluid py-3 py-md-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-6 text-center">
+          <img class="mb-3 mt-md-5" src="http://www.placekitten.com/100/100" alt="Festival photo">
+          <h1 class="mb-2 mb-md-5">Bienvenidos al Festival de Stoner Rock!</h1>
+          <p class="bold mb-md-5">by Author One</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-6 pt-3 pt-md-5">
+          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sapiente nihil aperiam nisi, sit in. Repudiandae harum dolore, animi sint</h2>      
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
+          <hr class="my-2 my-md-5">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+          <hr class="my-2 my-md-5">          
+        </div>
+      </div>  
+      <div class="row justify-content-center">
+          <div class="col-12 col-md-2 pt-3 pt-md-5">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>      
+          </div>
+          <div class="col-12 col-md-4 pt-3 pt-md-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
+          </div>          
+      </div>   
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-2 py-md-5">
+          <img src="http://www.placekitten.com/1200/800" alt="big cat" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mb-2 mb-md-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 pt-3 pt-md-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
+          </div>
+        </div>
     </div>
     <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script>
   </body>
 </html>
