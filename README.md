@@ -15,7 +15,7 @@ Sitio web que siga las características que se especifican a continuación:
 
   - Una de las páginas interiores debe seguir un formato de artículo e incluír un mínimo de 4 párrafos de texto y 2 fotografías. Puede ser una página que contenga información genérica del festival, una página del estilo noticia o nota de prensa, o cualquier otra opción que cumpla los requisitos descritos. A parte de la maquetación de la página deberás aplicar estilos a algunos elementos HTML que habitualmente podrían formar parte de una página de este tipo, como blockquote o listas (como se puede ver en el wireframe).
 
-  - La tercera página interior es de contenido completamente libre. La puedes usar para enseñar cualquier cosa que sepas hacer o que hayas aprendido. Algunas ideas son: una página de contacto con un formulario funcional (puede ser interesante probar Netlify Forms), una galería de fotos interactiva, un juego, vídeos…
+  -[DONE] La tercera página interior es de contenido completamente libre. La puedes usar para enseñar cualquier cosa que sepas hacer o que hayas aprendido. Algunas ideas son: una página de contacto con un formulario funcional (puede ser interesante probar Netlify Forms), una galería de fotos interactiva, un juego, vídeos…
 
 - El sitio web debe ser responsive y se debe poder ver correctamente desde cualquier dispositivo moderno (teléfono, tablet, ordenador…). En la reunión solo te dio tiempo de elaborar los wireframes de la versión de escritorio, así que deberás pensar cómo adaptas a dispositivos más pequeños la estructura acordada.
 
@@ -24,6 +24,7 @@ Sitio web que siga las características que se especifican a continuación:
 - Debes escoger una o más de las metodologías y guías de estilo estudiadas en el módulo 2 y aplicarla en tu desarrollo.
 
 - [DONE] Debes usar Bootstrap 5, cargado en UOC Boilerplate y personalizado con Sass como se indica en los materiales, y usar un mínimo de 4 componentes distintos.
+
 - Bootstrap Debes personalizar algún parámetro de los componentes usados a través de variables Sass, como se explica en la sección Customize de la documentación de Bootstrap.
 
 - [DONE] A parte, debes incorporar y usar otra dependencia externa, como FontAwesome o cualquier otra que consideres interesante. Puede ser una buena idea para la página de contenido libre. Puedes explicar en el foro cuál es, por qué la escogiste, y si tienes alguna duda o incidencia con su uso.

@@ -1,0 +1,16 @@
+.band {
+    &_area {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px 18px;
+        margin: 24px 0;
+    }
+
+    &_member {
+        flex:0 1 100%;
+
+        @include tablet {
+            flex:0 1 300px;
+        }
+    }
+}
