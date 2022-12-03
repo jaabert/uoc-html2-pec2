@@ -14,3 +14,225 @@
         }
     }
 }
+
+.home {
+    &-grid {
+        //grid set
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+        @include tablet {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;    
+        }
+
+        @include desktop {
+            grid-template-columns: 1fr 100px minmax(80px, 1fr)  2fr;
+            grid-template-rows: min-content 2fr 1fr 1fr;
+        }
+        
+        //basic position, bg, etc
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #000;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;    
+            background-image: url('https://images.unsplash.com/photo-1477927849362-0fb1e7d59ee6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8');
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.25;
+        }
+    }
+
+    &-img {
+        //grid set
+        grid-column-start: 3;
+        grid-row-start: 2;
+
+        //style
+        position: relative;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%; 
+
+        //img
+        img {
+            position: relative;
+            max-width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        //deco
+        &::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 2%;
+            right: -10%;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: -2%;
+            right: 1%;
+            background-color: orange;
+            border-radius: 50%;
+            z-index: 0;
+        }
+    }
+
+    &-info {
+        //grid-set lorem
+        grid-column-start: 1;
+        grid-row-start: 2;
+        justify-self: strech;
+
+        //style
+        position: relative;
+        padding: 5px 10px;
+        color: rgb(199, 197, 197);
+        font-weight: 800;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    &-docs {
+        //grid-set CSS grid
+        grid-column-start: 4;
+        grid-row-start: 1;
+
+        //style
+        position: relative;
+        color: rgb(199, 197, 197);
+    }
+
+    &-tweet {
+        //grid-set CSS grid
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        
+        //style
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        margin: 0;
+        color: rgb(199, 197, 197);
+    }    
+
+    &-line-up {
+        //grid-set CSS grid
+        grid-column-start: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        place-self: center;
+
+
+        //style
+        position: relative;
+        color: rgb(199, 197, 197);
+    }
+
+    &-title-sub {
+        //grid-set ROCK
+        grid-column-start: 2;
+        grid-row-start: 1;
+        
+        //style        
+        position: relative;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 6rem;
+        letter-spacing: -30px;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+    }
+
+    &-title {
+        //grid-set CSS grid
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+        //style
+        position: relative;
+        color: orange;
+        font-weight: 800;
+        letter-spacing: -20px;
+        font-size: 10rem;
+        line-height:1.5;
+        text-transform: uppercase;
+
+        @include desktop {
+            margin-top: -39px;
+            margin-right: -28px;
+        }
+    }
+
+    &-title-final {
+        //grid-set FESTIVAL
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        //style
+        position: relative;
+        color: white;
+        background-color: black;
+        font-weight: 800;
+        letter-spacing: -10px;
+        font-size: 12rem;
+        line-height:1.5;
+        margin: 0;
+        background-color: orange;
+        text-transform: uppercase;
+
+        span {
+            position: relative;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+            font-weight: 800;
+            letter-spacing: -10px;
+            font-size: 12rem;
+            line-height:1.5;
+            color: black;
+        }
+
+        &::before {
+            content: "";
+            height: 100%;
+            width: 35%;
+            background-color: orange;
+            position: absolute;
+            top: 0;
+            right: -16%;
+            border-radius: 50%;
+        }
+    }
+}

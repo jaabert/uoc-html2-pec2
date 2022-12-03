@@ -8,17 +8,40 @@
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
       <include src="./views/navbar_home.html"></include>
-      <main class="pt-5 pt-md-2 px-3">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-6 text-center">
-              <img class="mb-3 mt-md-5" src="http://www.placekitten.com/300/300" alt="Festival photo">
-              <h1 class="mb-2 mb-md-3">Stoner Rock Banda y Festival!</h1>
-              <p class="lead mb-md-5">CSS grid</p>
-            </div>
-          </div>
+      <main class="home-grid pt-5 pt-md-2 px-3">            
+        <div class="home-img">
+          <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="Festival photo">
+        </div>
+        <h1 class="home-title">Stoner</h1>
+        <span class="home-title-sub">rock</span>
+        <p class="home-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum et incidunt fugit optio sed odio vero ex in pariatur suscipit. Atque incidunt nemo magni suscipit.</p>
+        <p class="lead home-docs">CSS grid <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed alias dicta quibusdam perspiciatis quaerat. Illo possimus obcaecati minus, laudantium numquam alias vel magni pariatur! Iusto omnis placeat dicta! Assumenda, amet?</p>
+        <div class="home-title-final"><span>festival</span></div>
+        <div class="home-line-up">
+          <p class="lead">line up:</p>
+          <ul>
+            <li><strong>graveyard</strong> - 21:30h</li>
+            <li><strong>1000 mods</strong> - 23:00h</li>
+            <li><strong>Solstafir</strong> - 00:30h</li>
+            <li><strong>Stoner Rock Band!</strong> - 01:30h</li>
+          </ul>
+        </div>
+        <p class="lead home-tweet">Última hora: <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed alias dicta quibusdam perspiciatis quaerat</i></p>
       </main>
+      <aside>
+        <div class="container pt-5">
+          <div class="row mt-5">
+            <div class="col-12 col-md-6">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, sapiente dolorem? Tenetur repellat magni natus eaque minima sed commodi qui odio doloribus, voluptate cum maxime minus quam soluta culpa laboriosam?</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, sapiente dolorem? Tenetur repellat magni natus eaque minima sed commodi qui odio doloribus, voluptate cum maxime minus quam soluta culpa laboriosam?</p>
+            </div>            
+          </div>
+        </div>
+      </aside>
     </div>
     <!-- footer-->
     <include src="./views/footer.html"></include>

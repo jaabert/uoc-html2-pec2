@@ -11,7 +11,7 @@ Sitio web que siga las características que se especifican a continuación:
 
   - La página de portada: debe estar maquetada con CSS Grid y debes realizar algun diseño interesante, parecido a lo que podría ser un póster promocional del grupo. Como punto de partida, puedes leer el artículo “How I design with CSS Grid” de Chen Hui Jing, en el que cuenta cómo realizar una página de portada en formato póster. También te puedes inspirar conn los vídeos de la Jen Simmons en su canal Layout Land. La maquetación que realices debe ser compatible con navegadores que no soporten CSS Grid, usando @supports y ofreciendo una versión alternativa, como se explica en la guía del módulo 3.2. Debes alcanzar los objetivos propuestos, pero no tienes que ser demasiado creativo o perder muchísimo tiempo en este apartado.
 
-  - Una de las páginas interiores debe incluír una retícula con información sobre los miembros de la banda de música, maquetada con flex. Para esta retícula, no puedes usar las clases de Bootstrap .row o .col-\*.
+  - [DONE] Una de las páginas interiores debe incluír una retícula con información sobre los miembros de la banda de música, maquetada con flex. Para esta retícula, no puedes usar las clases de Bootstrap .row o .col-\*.
 
   - Una de las páginas interiores debe seguir un formato de artículo e incluír un mínimo de 4 párrafos de texto y 2 fotografías. Puede ser una página que contenga información genérica del festival, una página del estilo noticia o nota de prensa, o cualquier otra opción que cumpla los requisitos descritos. A parte de la maquetación de la página deberás aplicar estilos a algunos elementos HTML que habitualmente podrían formar parte de una página de este tipo, como blockquote o listas (como se puede ver en el wireframe).
 
