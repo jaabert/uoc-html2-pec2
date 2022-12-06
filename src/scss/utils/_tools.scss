@@ -13,11 +13,18 @@
 }
 
 @mixin desktop { 
-  @media (min-width: $desktop
-  ) {
+  @media (min-width: $desktop) {
     @content;
   }
 }
+
+/** SUPPORTING GRID MIXIN **/
+@mixin grid {
+  @supports (display: grid){
+    @content;
+  }
+}
+
 
 /** ICONS and Graphic 3rd party resources */
 .fa-twitter {

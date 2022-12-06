@@ -6,8 +6,13 @@ $color__white: #f3f3f3;
 $color__grey: rgb(199, 197, 197);
 $color__grey__dark: color.scale($color__grey, $lightness: -50%); 
 $color__orange: #ee7b0f;
-$color__orange--active: color.scale($color__orange, $lightness: 40%);;
+$color__orange--active: color.scale($color__orange, $lightness: 40%);
 $color__twitter: rgb(30, 30, 132);
+
+/** BREAKPOINTS: SAME AS BOOTSTRAP RANGES **/
+$tablet: 768px; // md bootstrap
+$laptop: 1200px; //xl bootstrap
+$desktop: 1400px; //xxl bootstrap
 
 /** TYPO WEIGTHS **/
 $font-weights:(
@@ -18,10 +23,5 @@ $font-weights:(
 );
 
 @function weight($weight-name){
-    @return map-get($font-weights , $weight-name)
-};
-
-/** BREAKPOINTS: SAME AS BOOTSTRAP RANGES **/
-$tablet: 768px; // md bootstrap
-$laptop: 1200px; //xl bootstrap
-$desktop: 1400px; //xxl bootstrap
+    @return map-get($font-weights, $weight-name)
+}

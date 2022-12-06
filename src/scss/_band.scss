@@ -1,12 +1,12 @@
 .band {
-    &_area {
+    &-area {
         display: flex;
         flex-wrap: wrap;
         gap: 24px 18px;
         margin: 24px 0;
     }
 
-    &_member {
+    &-member {
         flex:0 1 100%;
 
         @include tablet {

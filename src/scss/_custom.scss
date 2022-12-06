@@ -1,0 +1,40 @@
+/** CUSTOMIZE BOOTSTRAP **/
+.bg-dark {
+    background-color: $color__black !important;
+
+    .nav-link,a {
+        color: $color__grey !important;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $color__white !important;
+        }
+    }
+
+    .btn-primary {
+        background-color: $color__orange !important;
+        color: $color__white !important;
+        
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $color__orange--active !important;
+            color: $color__black !important;
+        }
+    }
+}
+
+.card {
+    background-color: $color__black;
+    color: $color__white;
+    
+    &-title {
+        color: $color__orange;
+    }
+
+    &-text {
+        color: $color__grey;
+    }
+}
+
