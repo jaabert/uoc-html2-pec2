@@ -1,0 +1,32 @@
+.festival {
+    &-bg {
+        position: relative;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: url("https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b");
+            background-position: center;
+            background-size: cover;
+            opacity: 0.5;
+            background-color: $color__black;
+        }
+    }
+
+    &-img {
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 400px;
+        border-radius: 5%;
+        
+        @include tablet {
+            width: 350px;
+            max-height: 350px;
+            border-radius: 15%;
+        }
+    }
+}

@@ -1,7 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 
-// custom style 
+// custom styles 
 @import "variables";
 @import "utils/tools";
-@import "stoner";
+@import "home";
+@import "band";
+@import "festival";

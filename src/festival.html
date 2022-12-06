@@ -9,19 +9,20 @@
   </head>
   <body>
     <include src="./views/navbar_festival.html"></include>
-    <div class="container-fluid py-3 py-md-5">
-      <div class="row justify-content-center align-items-center">
+    <article>
+    <div class="container-fluid py-3 py-md-5 festival-bg bg-dark">
+      <div class="row justify-content-center align-items-center position-relative">
         <div class="col-12 col-md-6 text-center">
-          <img class="mb-3 mt-md-5" src="http://www.placekitten.com/100/100" alt="Festival photo">
-          <h1 class="mb-2 mb-md-5">Stoner Rock Festival!</h1>
-          <p class="bold mb-md-5">by Author One</p>
+          <img class="mb-3 mt-md-5 festival-img" src="https://images.unsplash.com/photo-1565035010268-a3816f98589a" alt="Festival photo">
+          <h1 class="mb-2 mb-md-5 text-white">Stoner Rock Festival!</h1>
+          <p class="bold text-white">by Author One</p>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-6 pt-3 pt-md-5">
-          <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sapiente nihil aperiam nisi, sit in. Repudiandae harum dolore, animi sint</h2>      
+          <h2 class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sapiente nihil aperiam nisi, sit in. Repudiandae harum dolore, animi sint</h2>      
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
           <hr class="my-2 my-md-5">
           <ul class="list-group list-group-flush">
@@ -34,11 +35,12 @@
           <hr class="my-2 my-md-5">          
         </div>
       </div>  
-      <div class="row justify-content-center">
-          <div class="col-12 col-md-2 pt-3 pt-md-5">
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>      
+      <div class="row justify-content-center flex-nowrap flex-column align-items-center">
+          <div class="col-12 col-md-6 pt-3 pt-md-5">
+            <blockquote class="fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</blockquote>      
           </div>
-          <div class="col-12 col-md-4 pt-3 pt-md-5">
+          <div class="col-12 col-md-6 pt-3 pt-md-5">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus.</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
           </div>          
       </div>   
@@ -46,17 +48,22 @@
     <div class="container">
       <div class="row">
         <div class="col-12 py-2 py-md-5">
-          <img src="http://www.placekitten.com/1200/800" alt="big cat" class="img-fluid">
+          <figure class="figure">
+            <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14" alt="big cat" class="img-fluid">
+            <figcaption class="figure-caption">Máxima espectación por la banda.</figcaption>
+          </figure>
         </div>
       </div>
     </div>
     <div class="container-fluid mb-2 mb-md-5">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 pt-3 pt-md-5">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis perspiciatis temporibus. Voluptates expedita illo impedit nostrum debitis inventore aspernatur, facilis cum placeat ad dolor, recusandae tempore? Quod, quidem dolores?</p>
           </div>
         </div>
     </div>
+    </article>
     <include src="./views/footer.html"></include>
   </body>
 </html>
